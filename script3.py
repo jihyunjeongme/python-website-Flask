@@ -9,11 +9,9 @@ app = Flask(__name__)
 
 @app.route("/")
 def home(name=None):
-    # return render_template("/templates/index.html")
-    # return("Hello")
     return render_template("index.html", name=name)
 
-# Define 2nd Route and Content
+# Define
 
 
 @app.route("/index")
@@ -28,10 +26,14 @@ def index(name=None):
 def chats():
     return render_template("chats.html")
 
+# Find
+
 
 @app.route("/find")
 def find():
     return render_template("find.html")
+
+# More
 
 
 @app.route("/more")
@@ -44,10 +46,14 @@ def more():
 def chat():
     return render_template("chat.html")
 
+# Profile
+
 
 @app.route("/profile")
 def profile():
     return render_template("profile.html")
+
+# Image
 
 
 @app.route("/images")
