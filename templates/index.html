@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>Friends</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+  <header class="top-header">
+    <div class="header_top">
+      <div class="header_column">
+        <!-- plane icon -->
+        <i class="fa fa-fighter-jet"></i>
+        <!-- wifi icon -->
+        <i class="fa fa-wifi"></i>
+      </div>
+      <div class="header_column"><span class="header_time">18:38 </span></div>
+      <div class="header_column">
+        <!-- moon icon -->
+        <i class="fa fa-moon-o" aria-hidden="true"></i>
+        <!-- blue icon -->
+        <i class="fa fa-bluetooth-b"></i>
+        <span class="header_battery">66%
+          <!-- battery icon -->
+          <i class="fa fa-battery-full"></i>
+        </span>
+      </div>
+    </div>
+    <div class="header_bottom">
+      <div class="header_column"><span class="header_text">Manage</span></div>
+      <div class="header_column">
+        <span class="header_text">Friends <span class="header_number">1</span></span>
+      </div>
+      <div class="header_column"><i class="fa fa-cog"></i></div>
+    </div>
+  </header>
+  <main class="friends">
+    <div class="search-bar">
+      <i class="fa fa-search"></i>
+      <input type="text" placeholder="Find freinds, chats, Plus Friends" />
+    </div>
+    <section class="friends_section">
+      <header class="freinds_section_header">
+        <h6 class="friends_section-title">My Profile</h6>
+      </header>
+      <div class="friends_section-rows">
+        <div class="friends_section-row">
+          <a href="/profile">
+            <img src="static/avartar.jpg" alt="" />
+            <span class="friends_section-name">Jihyun</span>
+          </a>
+        </div>
+        <div class="friends_section-row">
+          <img src="static/avartar.jpg" alt="" />
+          <span class="friends_section-name">Friends' Names Display</span>
+        </div>
+      </div>
+    </section>
+    <section class="friends_section">
+      <header class="freinds_section_header">
+        <h6 class="freinds_section-title">Friends</h6>
+      </header>
+      <div class="friends_section-rows">
+        <div class="friends_section-row with-tagline">
+          <div class="friends_section-column">
+            <img src="static/avartar.jpg" alt="" />
+            <span class="friends_section-name">Jihyun</span>
+          </div>
+          <span class="friends_section-tagline">
+            Life is short. So live your live
+          </span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <nav class="tab-bar">
+    <a href="/index" class="tab-bar_tab tab-bar_tab--selected">
+      <i class="fa fa-user"></i><span class="tab-bar_title">Friends</span>
+    </a>
+    <a href="/chats" class="tab-bar_tab">
+      <i class="fa fa-comment"></i><span class="tab-bar_title">Chats</span>
+    </a>
+    <a href="/find" class="tab-bar_tab">
+      <i class="fa fa-search"></i><span class="tab-bar_title">Find</span>
+    </a>
+    <a href="/more" class="tab-bar_tab">
+      <i class="fa fa-ellipsis-h"></i><span class="tab-bar_title">More</span>
+    </a>
+  </nav>
+</body>
+
+</html>

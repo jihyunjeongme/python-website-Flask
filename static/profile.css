@@ -1,0 +1,68 @@
+.top-header--transparent {
+    background-color: transparent;
+}
+
+.profile .profile_header {
+    height: 80vh;
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ebf1a935471147.56f8f334db4e2.jpg');
+    background-position: center center;
+    background-size: 100%;
+    width: 100%;
+    position: relative;
+    top: -60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.profile_header .profile_header-container{
+    text-align: center;
+    position: relative;
+    bottom: -60px;
+}
+
+.profile_header-container img{
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile .profile_container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile_container input{
+    padding: 5px;
+    margin-bottom: 20px;      
+}
+
+.profile_actios{
+    display: flex;
+}
+
+.profile_action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+    /* cursor: not-allowed; */
+    cursor: pointer;
+
+}
+
+.profile_action-circle {
+    background: #f2f2f2;
+    padding: 15px;
+    border-radius: 50%;
+    color: #523737;
+    margin-bottom: 15px;
+}
+
+.profile_action-title {
+    font-size: 12px;
+    font-weight: 600;
+}
