@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="http://jikao.herokuapp.com/"><img src="https://user-images.githubusercontent.com/43984584/53229776-7bce7d80-36c8-11e9-9fb7-b7614cc4bead.png" alt="Markdownify" width=""></a>
+  <a href="http://jikao.herokuapp.com/"><img src="https://user-images.githubusercontent.com/43984584/53229776-7bce7d80-36c8-11e9-9fb7-b7614cc4bead.png" alt="Markdownify" width="400"></a>
   <br>
   
   <br>
