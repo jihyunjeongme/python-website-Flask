@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h1 align="center"> 카카오 Clone 을 Heroku에 Flask를 활용해서 배포하기 
+<h1 align="center"> 카카오 Clone을 Flask를 이용해 Heroku에 배포하기 
 </p>
 
 # Overview
